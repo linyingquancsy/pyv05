@@ -6,7 +6,7 @@ import utils.response
 from django.views import View   # 类视图继承的类
 
 
-filePath = settings.IMAGES_DIR + "\\resqut.jpg"
+filePath = settings.IMAGES_DIR + "/resqut.jpg"
 
 class aiword(View, utils.response.ResponseMixin):
     def get(self, request):
