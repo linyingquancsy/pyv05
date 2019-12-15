@@ -35,14 +35,13 @@ class api_iot(View, utils.response.ResponseMixin):
         :return:
         '''
         files = request.body               # 接收客户端上传上来的数据（如微信小程序中的wx.uploadFile() Post方法的）
-        # print('$$$', files)
         # print('$$$', type(files))
         response = []
         # print(str(files, encoding="utf-8"))
-        text_data = str(files, encoding="utf-8").split("=")
-        # print(text_data)
-        data[text_data[0]] = text_data[1]
-        print(data)
+        text_data = str(files, encoding="utf-8").replace("=", "&").split("&")
+        for i in range(0, len(text_data), 2):
+            data[text_data[i]] = text_data[i+1]
+        # print(data)
         message = 'post'
         response_json = self.wrap_json_response(data=response, code='Success', message=message)
         return JsonResponse(data=response_json, safe=False)  # 返回json格式的数据，为图片名字，和md5

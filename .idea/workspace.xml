@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7914f7c9-243f-442c-bd53-c5a61ecb2e2f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/function/pacon_data/get_scetc.py" beforeDir="false" afterPath="$PROJECT_DIR$/function/pacon_data/get_scetc.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/indexs/views_index.py" beforeDir="false" afterPath="$PROJECT_DIR$/indexs/views_index.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyv05/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyv05/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyv05/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyv05/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/indexs/views_index.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="241">
+              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -76,7 +73,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pyv05/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1653">
@@ -88,8 +85,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pyv05/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="27" column="42" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="42" />
+            <state relative-caret-position="569">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
               <folding>
                 <element signature="e#629#661#0" expanded="true" />
               </folding>
@@ -219,7 +216,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.views_index">
+  <component name="RunManager" selected="Django server.pyv05">
     <configuration name="api_post" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pyv05" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -380,7 +377,7 @@
       <workItem from="1575796662120" duration="48000" />
       <workItem from="1576302304744" duration="907000" />
       <workItem from="1576330253417" duration="4020000" />
-      <workItem from="1576411823450" duration="3542000" />
+      <workItem from="1576411823450" duration="7026000" />
     </task>
     <task id="LOCAL-00001" summary="py05">
       <created>1574930183744</created>
@@ -403,21 +400,29 @@
       <option name="project" value="LOCAL" />
       <updated>1574933180891</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="py05">
+      <created>1576415877002</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1576415877003</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48507000" />
+    <option name="totallyTimeSpent" value="51991000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23827533" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23827533" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30983606" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3672131" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -445,7 +450,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pyv05$get_scetc.coverage" NAME="get_scetc Coverage Results" MODIFIED="1575796697187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/function/pacon_data" />
     <SUITE FILE_PATH="coverage/pyv05$voice.coverage" NAME="voice Coverage Results" MODIFIED="1574925935845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/function/aiword" />
-    <SUITE FILE_PATH="coverage/pyv05$views_index.coverage" NAME="views_index Coverage Results" MODIFIED="1576414739202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/indexs" />
+    <SUITE FILE_PATH="coverage/pyv05$views_index.coverage" NAME="views_index Coverage Results" MODIFIED="1576419379242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/indexs" />
     <SUITE FILE_PATH="coverage/pyv05$api_post.coverage" NAME="api_post Coverage Results" MODIFIED="1576412970111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/python_cs" />
     <SUITE FILE_PATH="coverage/pyv05$dictation.coverage" NAME="dictation Coverage Results" MODIFIED="1574771702806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/function/aiword" />
   </component>
@@ -585,16 +590,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pyv05/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="27" column="42" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="42" />
-          <folding>
-            <element signature="e#629#661#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/python_cs/api_post.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="589">
@@ -602,20 +597,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/indexs/views_index.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pyv05/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1653">
           <caret line="87" column="5" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyv05/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#629#661#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/indexs/views_index.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
