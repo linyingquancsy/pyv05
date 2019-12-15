@@ -108,7 +108,6 @@ def scetc_news(html):
         datas[i]['titles'] = title_news[i]
         datas[i]['times'] = times_news[i]
 
-
 def all_mtml_main(urls_index):
     scetc_news(resquest_data(urls_index))
     all_data()

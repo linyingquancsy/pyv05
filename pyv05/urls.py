@@ -24,4 +24,7 @@ urlpatterns = [
     path('api/v0.5/', include('pyv05.version_1_0')),
     path('title/', views.json_test),
     path('body/', views.index_scetc_news),
+    # iot_api
+    path('sensor/', views_index.iot_sensor),
+    path('iot/', views_index.api_iot.as_view()),
 ]
