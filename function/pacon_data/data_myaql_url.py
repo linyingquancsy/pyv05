@@ -4,7 +4,7 @@ import django
 import json
 from collections import defaultdict
 # 创建Django环境
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'pyv03.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'pyv05.settings')
 django.setup()
 from app_get_data.models import pacon_datas
 

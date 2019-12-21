@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     # 新应用
-    'app_get_data'
+    'app_get_data',
+    'indexs'
 ]
 
 MIDDLEWARE = [
@@ -82,9 +83,23 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'django_mysql',
         'USER': 'root',
-        'PASSWORD': '',
+        'PASSWORD': 'root',
         'HOST': '127.0.0.1',
         'PORT': '3306',
+        'OPTIONS': {
+            'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",   # mysql使用严格模式，不指定会有警告信息
+        }
+    },
+    'iot': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'iot',
+        'USER': 'root',
+        'PASSWORD': 'root',
+        'HOST': '127.0.0.1',
+        'PORT': '3306',
+        'OPTIONS': {
+            'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",  # mysql使用严格模式，不指定会有警告信息
+        }
     }
 }
 

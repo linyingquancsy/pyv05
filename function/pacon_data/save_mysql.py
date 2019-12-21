@@ -2,10 +2,10 @@
 import os
 import django
 import random
-from pacon_data.get_scetc import *
+from function.pacon_data.get_scetc import *
 
 # 创建Django环境
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'pyv03.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'pyv05.settings')
 django.setup()
 from app_get_data.models import pacon_datas
 
@@ -76,6 +76,7 @@ if __name__ == '__main__':
     url_text = url
     print(url_text)
     datas = dict(all_mtml_main(url_text))
+    print("adaskaskdas@!@!#!@#!@#",datas)
     add_batch1(datas)
     while a:
         url_text = get_next_url(resquest_data(url_text))

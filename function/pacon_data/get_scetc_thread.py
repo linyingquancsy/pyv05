@@ -8,7 +8,7 @@ from urllib import parse
 from collections import defaultdict
 import time
 from threading import Thread
-from pacon_data.get_scetc import *
+from function.pacon_data.get_scetc import *
 
 url_index = "https://www.scetc.edu.cn/2294/list.htm"
 domin = 'https://www.scetc.edu.cn/'
