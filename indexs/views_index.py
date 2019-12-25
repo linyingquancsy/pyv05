@@ -51,9 +51,9 @@ def iot_sensor(request):
         data1['people'] = user[0].people
         data1['cpu'] = user[0].cpu
     data_iot = data1
-    if len(user) > 10:
-        iot_data.objects.using('iot').all().delete()
-        print("定期删除完成")
+    # if len(user) > 10:
+    #     iot_data.objects.using('iot').all().delete()
+    #     print("定期删除完成")
     return JsonResponse(data_iot)
 
 class api_iot(View, utils.response.ResponseMixin):
